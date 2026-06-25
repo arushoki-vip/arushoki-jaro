@@ -1,0 +1,269 @@
+
+
+
+
+
+<!doctype html>
+<html amp lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>ARUSHOKI ! Permainan Lengkap Dengan Akses Login Yang Mudah, Dapatkan Cuan Horee</title>
+    <link rel="canonical" href="https://www.baseclass.io/newsletter/jaro-winkler">
+    <link rel="alternate" href="https://www.baseclass.io/newsletter/jaro-winkler" hreflang="id">
+    <link rel="shortcut icon" href="https://img.seohaoxkoi.online/img_6a37c0e0322c5.webp" type="image/png">
+    
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+
+    <style amp-custom>
+        :root {
+            --diamond-blue: #00d4ff;
+            --royal-gold: #ffcc00;
+            --deep-purple: #240046;
+            --glass: rgba(255, 255, 255, 0.1);
+        }
+        body {
+            background-color: #050505;
+            color: #fff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Efek Partikel Statis di Background */
+            background-image: radial-gradient(circle at 50% 50%, #000080 0%, #000 100%);
+        }
+
+        /* ----- FRAME HP MEWAH (Diamond Glow) ----- */
+        .phone-frame {
+            position: relative;
+            width: 360px;
+            height: 760px;
+            background: #000;
+            border-radius: 50px;
+            padding: 12px;
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.2);
+            overflow: hidden;
+            border: 2px solid #222;
+        }
+
+        /* ANIMASI BORDER LASER (Slim & Elegant) */
+        .phone-frame::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(transparent, var(--diamond-blue), transparent, var(--royal-gold), transparent);
+            animation: rotate-border 4s linear infinite;
+        }
+        @keyframes rotate-border {
+            100% { transform: rotate(360deg); }
+        }
+
+        .lcd-screen {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #00001a;
+            border-radius: 40px;
+            z-index: 1;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* EFEK CAHAYA MELAYANG (Floating Light) */
+        .light-streak {
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
+            animation: float-light 6s infinite alternate;
+            pointer-events: none;
+        }
+        @keyframes float-light {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(150px, 400px); }
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        /* LOGO PULSE & SHINE */
+        .logo-box {
+            margin: 2px 0;
+            filter: drop-shadow(0 0 0px rgba(255, 204, 0, 0.5));
+            animation: logo-float 3s ease-in-out infinite;
+        }
+        @keyframes logo-float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        /* BANNER DENGAN EFEK FRAME KACA */
+        .banner-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            border-radius: 30px;
+            padding: 5px;
+            background: linear-gradient(135deg, var(--glass), transparent);
+            border: 1px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(5px);
+        }
+        .banner-container amp-img {
+            border-radius: 25px;
+            animation: slow-zoom 5s infinite alternate;
+        }
+        @keyframes slow-zoom {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+        }
+
+        /* TICKER GAYA MODERN (Valid AMP) */
+        .ticker-modern {
+            width: 100%;
+            overflow: hidden;
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+            padding: 8px 0;
+            margin: 15px 0;
+            white-space: nowrap;
+        }
+        .ticker-content {
+            display: inline-block;
+            animation: marquee-modern 20s linear infinite;
+            color: var(--diamond-blue);
+            font-weight: 600;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        @keyframes marquee-modern {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* TEXT LUXURY GRADIENT */
+        .brand-name {
+            font-size: 16px;
+            font-weight: 900;
+            margin: 5px 0;
+            background: linear-gradient(to right, #fff 20%, var(--royal-gold) 40%, var(--diamond-blue) 60%, #fff 80%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: shine-sweep 3s linear infinite;
+        }
+        @keyframes shine-sweep {
+            to { background-position: 200% center; }
+        }
+
+        .sub-text { font-size: 12px; color: #aaa; letter-spacing: 1px; line-height: 1.6; }
+
+        /* TOMBOL CRYSTAL (Luxury Glass Effect) */
+        .btn-crystal {
+            display: block;
+            margin: 12px auto;
+            width: 90%;
+            padding: 16px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            border-radius: 15px; /* Boxy modern style */
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid rgba(255,255,255,0.2);
+            position: relative;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Efek Kilatan (Flash) pada Tombol */
+        .btn-crystal::after {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            animation: btn-shimmer 2s infinite;
+        }
+        @keyframes btn-shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        .btn-gold { border-left: 4px solid var(--royal-gold); box-shadow: -5px 0 15px rgba(255, 204, 0, 0.2); }
+        .btn-blue { border-left: 4px solid var(--diamond-blue); box-shadow: -5px 0 15px rgba(0, 212, 255, 0.2); }
+
+        /* FOOTER DECORATION */
+        .diamond-icon {
+            color: var(--royal-gold);
+            font-size: 20px;
+            margin-bottom: 20px;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+    </style>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+
+<div class="phone-frame">
+    <div class="lcd-screen">
+        <div class="light-streak"></div>
+        
+        <div class="container">
+            <div class="logo-box">
+                <amp-img src="https://img.seohaoxkoi.online/img_6a37c0d6a9b9f.webp" width="160" height="45" layout="fixed" alt="Logo arushoki"></amp-img>
+            </div>
+
+            <div class="banner-container">
+                <amp-img src="https://img.seohaoxkoi.online/img_6a37c0af933ea.webp" width="600" height="600" layout="responsive" alt="Banner arushoki"></amp-img>
+            </div>
+
+            <div class="ticker-modern">
+                <div class="ticker-content">
+                    ✦ ARUSHOKI ! Permainan Lengkap Dengan Akses Login Yang Mudah, Dapatkan Cuan Horee ✦ 
+                </div>
+            </div>
+
+            <div>
+                <div class="brand-name">ARUSHOKI</div>
+                <div class="sub-text">ARUSHOKI merupakan aplikasi game yang menawarkan beragam pilihan permainan menarik dengan sistem akses yang cepat dan mudah.</div>
+            </div>
+
+            <div>
+                <a href="https://snapylink.pro/arushoki" class="btn-crystal btn-gold">LOGIN DISINI</a>
+                <a href="https://snapylink.pro/arushoki" class="btn-crystal btn-blue">DAFTAR SEKARANG</a>
+            </div>
+
+            <div class="diamond-icon">◆ ARUSHOKI ◆</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
